@@ -1,0 +1,40 @@
+{
+  "name": "storybooks",
+  "version": "1.0.0",
+  "description": "Created this App using Express, MongoDB & Google OAuth",
+  "main": "App.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=development nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-Ikhankar/storyBooks.git"
+  },
+  "keywords": [
+    "practice"
+  ],
+  "author": "yash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-Ikhankar/storyBooks/issues"
+  },
+  "homepage": "https://github.com/Yash-Ikhankar/storyBooks#readme",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.5",
+    "morgan": "^1.10.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.20"
+  }
+}
